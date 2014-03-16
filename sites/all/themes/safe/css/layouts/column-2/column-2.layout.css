@@ -28,6 +28,7 @@
     float: left;
     margin-left: 0;
     margin-right: -100%;
+    padding-left: 1.5%;
     clear: none;
   }
 
@@ -36,6 +37,7 @@
     float: left;
     margin-right: -100%;
     margin-left: 41.5%;
+    padding-right: 1.5%;
     clear: none;
   }
 }

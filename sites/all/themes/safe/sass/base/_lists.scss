@@ -15,8 +15,9 @@ ul.menu {
 .main-menu {
   ul {
     line-height: 60px;
-    li {
-
+    li.last {
+      float: right;
+      padding-right: 1.5%;
     }
     a {
       text-decoration: none;
@@ -32,6 +33,11 @@ ul.menu {
         background-color: $gold;
       }
 
+    }
+    a.donate {
+      line-height: 80px;
+      margin-top: -10px;
+      background-color: $pale_gold;
     }
   }
 
