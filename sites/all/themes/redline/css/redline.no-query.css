@@ -17,7 +17,11 @@ body {
   .header-slogan {
     display: block;
     font-size: 2.2vmax; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000321}}
+@media (min-width: 1250px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000319}}
+  .header-slogan {
+    font-size: 1.7em; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000327}}
 ul li a:hover,
 ul li a.active-trail,
 .main-menu ul li a:hover,
@@ -25,6 +29,6 @@ ul li a.active-trail,
   background-color: #ce3233; }
 
 @media (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000335}}
   .main-menu ul {
     background-color: #ce3233; } }
