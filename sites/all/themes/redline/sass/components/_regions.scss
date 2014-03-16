@@ -1,0 +1,34 @@
+body {
+  background-color: $black;
+
+  .l-header,
+  .l-main,
+  .l-footer {
+    background-color: $black;
+  }
+}
+
+@media (min-width: 700px) {
+  .header-slogan {
+    display: block;
+    font-size: 2.2vmax;
+  }
+}
+
+ul li,
+.main-menu ul li  {
+  a:hover,
+  a.active-trail {
+    background-color: $red;
+  }
+}
+
+
+.main-menu {
+  @media (min-width: 700px) {
+    ul {
+      background-color: $red;
+    }
+  }
+}
+
