@@ -1,0 +1,53 @@
+.breadcrumb {
+  display: none;
+}
+
+ul.menu {
+  li, li.leaf {
+    list-style: none;
+    a {
+      color: $white;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.main-menu {
+  ul {
+    line-height: 60px;
+    li {
+
+    }
+    a {
+      text-decoration: none;
+      font-size: 1.7em;
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 60px;
+      background-color: $grey;
+      display: inline-block;
+      width: 80%;
+      padding: 0 1em;
+      &:hover, &.active-trail {
+        background-color: $gold;
+      }
+
+    }
+  }
+
+  @media (min-width: 700px) {
+    ul {
+      background-color: $gold;
+      height: 60px;
+      li {
+        float: left;
+      }
+      a {
+        display: block;
+        width: inherit;
+        background-color: inherit;
+      }
+    }
+  }
+}
+

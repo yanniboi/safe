@@ -1,0 +1,99 @@
+body {
+  background-color: $black;
+
+
+  .l-header,
+  .l-main,
+  .l-footer {
+    background-color: $black;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  body {
+    background-color: $grey;
+  }
+}
+
+.l-main {
+  h1 {
+    padding: 0.7em 0;
+    margin: 0;
+  }
+}
+
+.sidebar-navigation {
+  ul {
+    padding-left: 0;
+  }
+  li {
+    line-height: 40px;
+    a {
+      color: $white;
+      padding: 0 1em;
+      text-decoration: none;
+      background-color: $grey;
+      display: block;
+      &:hover {
+        background-color: $gold;
+      }
+
+    }
+  }
+
+}
+
+.header-slogan {
+  display: none;
+  margin: 1.5em 2em 0.5em;
+  line-height: 1.7em;
+}
+
+
+@media (min-width: 700px) {
+  .header-slogan {
+    display: block;
+    font-size: 2.5vmax;
+  }
+}
+
+@media (min-width: 1250px) {
+  .header-slogan {
+    font-size: 1.7em;
+  }
+}
+
+
+
+.sidebar-branding {
+  text-align: center;
+
+  .branding-item {
+    margin-top: 30px;
+
+    .image {
+      background: url(../images/sidebar-hold.png) no-repeat center;
+      height: 150px;
+      margin-bottom: 20px;
+    }
+  }
+  .prevention .image {
+    background-image: url(../images/sidebar-stop.png);
+  }
+  .education .image {
+    background-image: url(../images/sidebar-write.png);
+  }
+}
+
+#off-canvas {
+  background-color: $black;
+  position: fixed;
+
+}
+@media (min-width: 700px) {
+  #off-canvas {
+    position: inherit;
+  }
+}
