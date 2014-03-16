@@ -1,5 +1,30 @@
+/* No files to import found in abstractions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
-/* No files to import found in partials/components/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\000031}}
+body {
+  background-color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\000036}}
+  body .l-header,
+  body .l-main,
+  body .l-footer {
+    background-color: black; }
+
+@media (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000312}}
+  .header-slogan {
+    display: block;
+    font-size: 2.2vmax; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000321}}
+ul li a:hover,
+ul li a.active-trail,
+.main-menu ul li a:hover,
+.main-menu ul li a.active-trail {
+  background-color: #ce3233; }
+
+@media (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000329}}
+  .main-menu ul {
+    background-color: #ce3233; } }
