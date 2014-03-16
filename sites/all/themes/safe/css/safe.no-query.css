@@ -15,10 +15,6 @@ ul.menu li, ul.menu li.leaf {
 .main-menu ul {
   line-height: 60px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000318}}
-  .main-menu ul li.last {
-    float: right;
-    padding-right: 1.5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000322}}
   .main-menu ul a {
     text-decoration: none;
     font-size: 1.7em;
@@ -29,27 +25,33 @@ ul.menu li, ul.menu li.leaf {
     display: inline-block;
     width: 80%;
     padding: 0 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000328}}
     .main-menu ul a:hover, .main-menu ul a.active-trail {
       background-color: #bba656; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000337}}
-  .main-menu ul a.donate {
-    line-height: 80px;
-    margin-top: -10px;
-    background-color: #c5b270; }
 @media (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000336}}
   .main-menu ul {
     background-color: #bba656;
-    height: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000348}}
+    height: 60px;
+    margin: 0 -1%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000340}}
     .main-menu ul li {
       float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000343}}
+    .main-menu ul li.last {
+      float: right;
+      padding-right: 1.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000347}}
     .main-menu ul a {
       display: block;
       width: inherit;
-      background-color: inherit; } }
+      background-color: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000352}}
+    .main-menu ul a.donate {
+      line-height: 80px;
+      margin-top: -10px;
+      background-color: #c5b270;
+      border-radius: 10px; } }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
