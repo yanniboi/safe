@@ -1,7 +1,7 @@
 <?php
 
 $aliases['deva'] = array(
-  'uri' => 'localhost/deva.safe',
-  'root' => '/var/www/deva.safe',
+  'uri' => 'deva.safe.uk.net',
+  'root' => '/home/safe/domains/deva.safe.uk.net/public_html',
   'variables' => array('mail_system' => array('default-system' => 'DevelMailLog')),
 );
