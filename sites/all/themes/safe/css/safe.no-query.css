@@ -220,3 +220,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\00003118}}
 .footer-copyright {
   margin-top: -17px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\00003122}}
+.block--menu-block-4 {
+  height: 35px; }
