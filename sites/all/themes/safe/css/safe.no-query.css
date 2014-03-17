@@ -61,11 +61,9 @@ ul.menu li, ul.menu li.leaf {
 .menu-name-menu-footer {
   float: left;
   width: 100%;
-  background: #fff;
-  border-bottom: 4px solid #000;
   overflow: hidden;
   position: relative; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000368}}
   .menu-name-menu-footer .menu {
     clear: left;
     float: left;
@@ -75,7 +73,7 @@ ul.menu li, ul.menu li.leaf {
     position: relative;
     left: 50%;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000378}}
     .menu-name-menu-footer .menu li {
       display: block;
       float: left;
@@ -84,23 +82,24 @@ ul.menu li, ul.menu li.leaf {
       padding: 0;
       position: relative;
       right: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000387}}
+      .menu-name-menu-footer .menu li + li a {
+        border-left: 1px solid #ffffff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000391}}
       .menu-name-menu-footer .menu li a {
         display: block;
         margin: 0 0 0 1px;
         padding: 3px 10px;
-        background: #ddd;
-        color: #000;
+        background: 000000;
+        color: #ffffff;
         text-decoration: none;
         line-height: 1.3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003100}}
         .menu-name-menu-footer .menu li a:hover {
-          background: #369;
-          color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003104}}
+          background: #666666; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003105}}
         .menu-name-menu-footer .menu li a.active, .menu-name-menu-footer .menu li a.active:hover {
-          color: #fff;
-          background: #000;
+          background: #000000;
           font-weight: bold; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_media\.scss}line{font-family:\000031}}
