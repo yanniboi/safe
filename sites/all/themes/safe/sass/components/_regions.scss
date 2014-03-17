@@ -22,6 +22,9 @@ body {
     padding: 0.7em 0;
     margin: 0;
   }
+  h1, h2, h3 {
+    color: $gold;
+  }
 }
 
 .sidebar-navigation {
@@ -30,6 +33,7 @@ body {
   }
   li {
     line-height: 40px;
+    margin-bottom: 10px;
     a {
       color: $white;
       padding: 0 1em;
@@ -69,6 +73,7 @@ body {
 
 .sidebar-branding {
   text-align: center;
+  display: none;
 
   .branding-item {
     margin-top: 30px;
@@ -95,5 +100,8 @@ body {
 @media (min-width: 700px) {
   #off-canvas {
     position: inherit;
+  }
+  .sidebar-branding {
+    display: block;
   }
 }

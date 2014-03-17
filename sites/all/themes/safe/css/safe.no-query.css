@@ -88,63 +88,72 @@ body {
 .l-main h1 {
   padding: 0.7em 0;
   margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000325}}
+.l-main h1, .l-main h2, .l-main h3 {
+  color: #bba656; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000331}}
 .sidebar-navigation ul {
   padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000334}}
 .sidebar-navigation li {
-  line-height: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000333}}
+  line-height: 40px;
+  margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000337}}
   .sidebar-navigation li a {
     color: white;
     padding: 0 1em;
     text-decoration: none;
     background-color: #666666;
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000343}}
     .sidebar-navigation li a:hover {
       background-color: #bba656; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000352}}
 .header-slogan {
   display: none;
   margin: 1.5em 2em 0.5em;
   line-height: 1.7em; }
 
 @media (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000360}}
   .header-slogan {
     display: block;
     font-size: 2.5vmax; } }
 @media (min-width: 1250px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000367}}
   .header-slogan {
     font-size: 1.7em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000374}}
 .sidebar-branding {
-  text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000373}}
+  text-align: center;
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000378}}
   .sidebar-branding .branding-item {
     margin-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000381}}
     .sidebar-branding .branding-item .image {
       background: url(../images/sidebar-hold.png) no-repeat center;
       height: 150px;
       margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000387}}
   .sidebar-branding .prevention .image {
     background-image: url(../images/sidebar-stop.png); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000385}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000390}}
   .sidebar-branding .education .image {
     background-image: url(../images/sidebar-write.png); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000395}}
 #off-canvas {
   background-color: #101315;
   position: fixed; }
 
 @media (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\00003101}}
   #off-canvas {
-    position: inherit; } }
+    position: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/components\/_regions\.scss}line{font-family:\00003104}}
+  .sidebar-branding {
+    display: block; } }

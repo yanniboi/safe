@@ -32,3 +32,7 @@ ul li a.active-trail,
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000335}}
   .main-menu ul {
     background-color: #ce3233; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000341}}
+.l-main h1, h2, h3 {
+  color: #ce3233; }
