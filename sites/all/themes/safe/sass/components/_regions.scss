@@ -104,8 +104,8 @@ body {
 #off-canvas {
   background-color: $black;
   position: fixed;
-
 }
+
 @media (min-width: 700px) {
   #off-canvas {
     position: inherit;
@@ -113,4 +113,8 @@ body {
   .sidebar-branding {
     display: block;
   }
+}
+
+.footer-copyright {
+  margin-top: -17px
 }
