@@ -78,6 +78,15 @@ body {
   .branding-item {
     margin-top: 30px;
 
+    h4 {
+      font-size: 22px;
+      margin: 0 1em;
+    }
+    p {
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .image {
       background: url(../images/sidebar-hold.png) no-repeat center;
       height: 150px;
