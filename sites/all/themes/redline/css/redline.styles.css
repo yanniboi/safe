@@ -3,25 +3,22 @@
 img, media {
   max-width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\000031}}
-body {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\000034}}
+body .l-header,
+body .l-main,
+body .l-footer {
   background-color: black; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\000036}}
-  body .l-header,
-  body .l-main,
-  body .l-footer {
-    background-color: black; }
 
 @media (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000310}}
   .header-slogan {
     display: block;
     font-size: 2.2vmax; } }
 @media (min-width: 1250px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000317}}
   .header-slogan {
     font-size: 1.7em; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000325}}
 ul li a:hover,
 ul li a.active-trail,
 .main-menu ul li a:hover,
@@ -29,10 +26,10 @@ ul li a.active-trail,
   background-color: #ce3233; }
 
 @media (min-width: 700px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000333}}
   .main-menu ul {
     background-color: #ce3233; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/redline\/sass\/components\/_regions\.scss}line{font-family:\0000340}}
 .l-main h1, .l-main h2, .l-main h3 {
   color: #ce3233; }
