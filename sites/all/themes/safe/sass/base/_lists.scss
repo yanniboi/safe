@@ -60,6 +60,7 @@ ul.menu {
 }
 
 .menu-name-menu-footer {
+  display: none;
   float: left;
   width: 100%;
   overflow: hidden;
@@ -113,3 +114,8 @@ ul.menu {
   }
 }
 
+@media (min-width: 700px) {
+  .menu-name-menu-footer {
+    display: block;
+  }
+}

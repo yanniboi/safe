@@ -59,12 +59,13 @@ ul.menu li, ul.menu li.leaf {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000362}}
 .menu-name-menu-footer {
+  display: none;
   float: left;
   width: 100%;
   overflow: hidden;
   position: relative;
   margin-bottom: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000370}}
   .menu-name-menu-footer .menu {
     clear: left;
     float: left;
@@ -74,7 +75,7 @@ ul.menu li, ul.menu li.leaf {
     position: relative;
     left: 50%;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000380}}
     .menu-name-menu-footer .menu li {
       display: block;
       float: left;
@@ -83,10 +84,10 @@ ul.menu li, ul.menu li.leaf {
       padding: 0;
       position: relative;
       right: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000389}}
       .menu-name-menu-footer .menu li + li a {
         border-left: 1px solid #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000393}}
       .menu-name-menu-footer .menu li a {
         display: block;
         margin: 0 0 0 1px;
@@ -96,14 +97,18 @@ ul.menu li, ul.menu li.leaf {
         text-decoration: none;
         line-height: 1.3em;
         font-size: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003103}}
         .menu-name-menu-footer .menu li a:hover {
           background: #666666; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003108}}
         .menu-name-menu-footer .menu li a.active, .menu-name-menu-footer .menu li a.active:hover {
           background: #666666;
           font-weight: bold; }
 
+@media (min-width: 700px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003118}}
+  .menu-name-menu-footer {
+    display: block; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
   max-width: 100%; }
