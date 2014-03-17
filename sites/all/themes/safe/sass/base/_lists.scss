@@ -105,7 +105,7 @@ ul.menu {
 
         &.active,
         &.active:hover {
-          background: #000000;
+          background: $grey;
           font-weight: bold;
         }
       }

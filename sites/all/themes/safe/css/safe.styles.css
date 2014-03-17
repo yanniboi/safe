@@ -101,7 +101,7 @@ ul.menu li, ul.menu li.leaf {
           background: #666666; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003107}}
         .menu-name-menu-footer .menu li a.active, .menu-name-menu-footer .menu li a.active:hover {
-          background: #000000;
+          background: #666666;
           font-weight: bold; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_media\.scss}line{font-family:\000031}}
