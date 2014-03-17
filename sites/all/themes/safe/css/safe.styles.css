@@ -1,4 +1,8 @@
 /* No files to import found in abstractions/**\/* */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_forms\.scss}line{font-family:\000031}}
+input {
+  color: #000000; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\000031}}
 .breadcrumb {
   display: none; }
@@ -52,6 +56,52 @@ ul.menu li, ul.menu li.leaf {
       margin-top: -10px;
       background-color: #c5b270;
       border-radius: 10px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000362}}
+.menu-name-menu-footer {
+  float: left;
+  width: 100%;
+  background: #fff;
+  border-bottom: 4px solid #000;
+  overflow: hidden;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000370}}
+  .menu-name-menu-footer .menu {
+    clear: left;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000380}}
+    .menu-name-menu-footer .menu li {
+      display: block;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      right: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000389}}
+      .menu-name-menu-footer .menu li a {
+        display: block;
+        margin: 0 0 0 1px;
+        padding: 3px 10px;
+        background: #ddd;
+        color: #000;
+        text-decoration: none;
+        line-height: 1.3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\0000398}}
+        .menu-name-menu-footer .menu li a:hover {
+          background: #369;
+          color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_lists\.scss}line{font-family:\00003104}}
+        .menu-name-menu-footer .menu li a.active, .menu-name-menu-footer .menu li a.active:hover {
+          color: #fff;
+          background: #000;
+          font-weight: bold; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/safe\/sites\/all\/themes\/safe\/sass\/base\/_media\.scss}line{font-family:\000031}}
 img, media {
